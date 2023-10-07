@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Grocery Store FrontEnd
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&?style=plastic&logo=appveyor)](https://opensource.org/license/MIT)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Table Of Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Overview](#overview)
+- [Technologies](#technologies)
+- [Installation](#installation)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Contributing](#contribution)
 
-### `npm test`
+- [GitHub](#github)
+- [Contact](#contact)
+- [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![GitHub repo size](https://img.shields.io/github/repo-size/33kumarram/ChatAppFrontEnd?style=plastic)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ![GitHub top language](https://img.shields.io/github/languages/top/33kumarram/ChatAppFrontEnd?style=plastic)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Overview
+The MERN Grocery Store Application is designed to efficiently manage product information. Within this application, users can input details about grocery items, such as their name, category, price, product image, and description. This information is then presented in a clear tabular format, complete with the relevant details and accompanying images, for easy reference.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies
 
-## Learn More
+React: JavaScript library for building user interfaces.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Axios: HTTP client for making API requests.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+To get started with the front-end repository, first clone the repository onto your local machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+git clone https://github.com/33kumarram/grocerystorefrontend.git
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Next, navigate into the cloned repository and install any dependencies:
 
-### Advanced Configuration
+cd grocerystorefrontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install
 
-### Deployment
+You will also need to create a .env file in the root of the project directory, containing the following environment variables: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+REACT_APP_API_URL = API endpoint to make requests to the server. 
 
-### `npm run build` fails to minify
+Once the dependencies are installed and the environment variables are set, start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+
+The front-end application should now be running on http://localhost:3000, and any changes made to the code will be automatically reloaded in the browser.
+
+
+
+
+
+
+
+
+## Contribution
+ 
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository
+
+2. Create a new branch for your changes
+
+3. Make your changes and commit them with descriptive commit messages
+
+4. Push your changes to your forked repository
+
+5. Open a pull request to merge your changes into the master branch
+
+
+
+
+
+
+
+
+## GitHub
+
+<a href="https://github.com/33kumarram"><strong>33kumarram</a></strong>
+
+
+
+<strong><a href="https://www.linkedin.com/in/ramesh-kumar-33613a174">LinkedIn</a></strong>
+
+
+
+
+
+## Contact
+
+Feel free to reach out to me on my email:
+rk3790690@gmail.com
+
+
+
+
+
+## License
+
+[![License](https://img.shields.io/static/v1?label=Licence&message=MIT&color=blue)](https://opensource.org/license/MIT)
+
+
