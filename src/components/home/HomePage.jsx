@@ -28,7 +28,7 @@ export const HomePage = (params) => {
     }, [])
 
     return (
-        <Paper style={{ width: "80%", padding: '0px 30px 30px 30px', border: "1px solid black", display: "flex", flexDirection: 'column', alignItems: "center", margin: "auto", marginTop: '20px', marginBottom: '10px' }}>
+        <Paper style={{ width: "80%", padding: '0px 30px 30px 30px', border: "1px solid black", display: "flex", flexDirection: 'column', alignItems: "center", margin: "auto", marginTop: '90px', marginBottom: '10px' }}>
             <h2>Available Products
                 <Button
                     onClick={() => { navigate('/addproduct') }}>
@@ -42,7 +42,7 @@ export const HomePage = (params) => {
                         <TableCell align='center' style={{ width: '20%', border: "1px solid black" }}>Name</TableCell>
                         <TableCell align='center' style={{ width: '20%', border: "1px solid black" }}>Image</TableCell>
                         <TableCell align='center' style={{ width: '20%', border: "1px solid black" }}>Description</TableCell>
-                        <TableCell align='center' style={{ width: '20%', border: "1px solid black" }}>Price</TableCell>
+                        <TableCell align='center' style={{ width: '20%', border: "1px solid black" }}>Price (₹)</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>

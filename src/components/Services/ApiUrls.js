@@ -17,7 +17,7 @@ function fetchProducts(params) {
 function addProduct(data) {
   return axiosInstances({
     url: `${baseURL}/store/addproduct`,
-    method: "put",
+    method: "post",
     data: data
   });
 }
